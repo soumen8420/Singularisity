@@ -1,0 +1,153 @@
+.heady{
+    
+    position: sticky;
+    top: 5px;
+}
+.reg{
+    background-color:#29AF29;
+    color:white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow:0 0 10px blue;
+    animation: desigin 3s infinite linear;
+}
+@keyframes desigin{
+    0%{
+        transform: scale(1,1);
+        /* opacity: 0; */
+    }
+     50%{
+        transform: scale(1.3,1.3);
+        /* opacity: 0.5; */
+        
+    }
+    100%{
+        transform: scale(1,1);
+        /* opacity: 0; */
+   }
+}
+.reg-2{
+    background-color:#F0AA10;
+    color:#582100;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:0 0 10px blue;
+    
+}
+.reg-a{
+    color:white;
+    text-decoration: none;
+}
+.div-1{
+    border: 1px solid blue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: #FFFF4A;
+    background-color: #000000;
+    font-size: 13px;
+}
+.div-2{
+    color: #FFDF69;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.about-back{
+    background-color: #000;
+    color: white;
+    
+    font-weight: 140;
+    font-size: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContsiner{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10PX;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width:700px){
+    .footerNav ul{
+            flex-direction: column;
+    }
+    .footerNav ul li{
+            width: 100%;
+            text-align: center;
+            margin: 10px;
+    }
+}
